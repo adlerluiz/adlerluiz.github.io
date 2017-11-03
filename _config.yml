@@ -17,9 +17,9 @@ google-analytics:
 
 exclude: ['package.json', 'src' , 'node_modules']
 
-gems:           ['jekyll-multiple-languages']
-# The all languages used
-languages:          ['pt-br', 'en']
-
-# If not config, the first item of languages will be used as the default.
-language_default:   'pt-br'
+languages: ["pt-br", "en"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: pt-br
+languageNames:
+  pt-br: Português Brasil
+  en: English
