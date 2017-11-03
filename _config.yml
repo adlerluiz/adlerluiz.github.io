@@ -14,5 +14,7 @@ gplus_username: +AdlerLuizFreitas
 # Google-analytics
 google-analytics:
   id: ""
+  
+permalink: /404.html
 
 exclude: ['package.json', 'src' , 'node_modules']
