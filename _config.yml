@@ -1,0 +1,18 @@
+# Site settings
+title: My portfolio
+description: .
+
+# User settings
+username: Adler Luiz
+user_description: .
+user_title: Software Developer
+email: adlerluiz10@gmail.com
+twitter_username: adlerluiz
+github_username:  adlerluiz
+gplus_username:  AdlerLuizFreitas
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
