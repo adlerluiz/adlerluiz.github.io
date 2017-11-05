@@ -264,3 +264,19 @@ body {
     margin: 0;
     color: #fff
 }
+
+.project-list {
+	
+}
+
+.top {
+	background: #1a222c; 
+	height: 50px; 
+	color: #FFF; 
+	text-align: center;
+}
+
+.top a:link, .top a:visited {
+	text-decoration: none !important;
+	color: #FFF;
+}
