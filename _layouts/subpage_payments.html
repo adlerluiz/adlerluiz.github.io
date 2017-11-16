@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+	  <div class="top">
+		<h2> 
+			<a href="/">{{site.username}}</a> 
+		</h2>
+	  </div>
+	  
+      <section id="projects">
+        {% include payments.html %}
+      </section>
+        {{ content }}
+      {% include footer.html %}
+  </body>
