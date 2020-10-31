@@ -1,11 +1,11 @@
 <style>
 	.card {
 		color: #FFF; 
-		width: 310px;
+		/*width: 310px;*/
 		height: 180px;
 	
 		border-radius: 10px; 
-		//padding: 5px;
+		/*padding: 5px;*/
 		
 		margin: 10px 0 10px 0;
 
@@ -43,6 +43,10 @@
 		background-color: #612f74;
 	}
 
+	.c6 {
+		background-color: #111111;
+	}
+
 	td, th {
 		border: none;
 		text-align: center;
@@ -51,6 +55,20 @@
 	.small {
 		font-size: 10px;
 	}
+
+	.pix-key::after {
+		content: '\A Chave Pix';
+		white-space: pre-wrap;
+		color: #CCC;
+		text-shadow: 0 0 2px #666;
+		font-size: .6em;
+	}
+
+	.pix-key {
+		text-align: center; 
+		margin-top: 45px;
+		font-size: .9em;
+	}
 </style>
 
 <div class="center">
@@ -58,6 +76,7 @@
 </div>
 
 <div class="container">
+
 	<div class="four columns">
 		<div class="card inter">
 
@@ -65,19 +84,9 @@
 				Banco Inter
 			</div>
 
-			<table width="100%">
-				<tbody>
-				<tr>
-					<th>0001</th>
-					<th>884614-6</th>
-				</tr>
-
-				<tr class="small">
-					<td>Agência</td>
-					<td>Conta</td>
-				</tr>
-				</tbody>
-			</table>
+			<div class="pix-key">
+				Breve
+			</div>
 
 		</div>
 	</div>
@@ -88,46 +97,13 @@
 				Banco Itaú
 			</div>
 
-			<table width="100%">
-				<tbody>
-				<tr>
-					<th>6557</th>
-					<th>12674-2</th>
-				</tr>
-
-				<tr class="small">
-					<td>Agência</td>
-					<td>Conta</td>
-				</tr>
-				</tbody>
-			</table>
-
-		</div>
-	</div>
-	<div class="four columns">
-		<div class="card neon">
-
-			<div class="title">
-				Banco Neon
+			<div class="pix-key">
+				7c258fa2-e8c5-46b5-aba4-604fd2d28138
 			</div>
 
-			<table width="100%">
-				<tbody>
-				<tr>
-					<th>0655</th>
-					<th>182281-0</th>
-				</tr>
-
-				<tr class="small">
-					<td>Agência</td>
-					<td>Conta</td>
-				</tr>
-				</tbody>
-			</table>
-
 		</div>
 	</div>
-	
+
 	<div class="four columns">
 		<div class="card nubank">
 
@@ -135,20 +111,29 @@
 				NuBank
 			</div>
 
-			<table width="100%">
-				<tbody>
-				<tr>
-					<th>0001</th>
-					<th>7500974-3</th>
-				</tr>
-
-				<tr class="small">
-					<td>Agência</td>
-					<td>Conta</td>
-				</tr>
-				</tbody>
-			</table>
+			<div class="pix-key">
+				Breve
+			</div>
 
 		</div>
 	</div>
+
+</div>
+
+<div class="container">
+
+	<div class="four columns">
+		<div class="card c6">
+
+			<div class="title">
+				C6
+			</div>
+
+			<div class="pix-key">
+				d88c9508-b16f-40c5-a3e7-ed01eaadf101
+			</div>
+
+		</div>
+	</div>	
+
 </div>
